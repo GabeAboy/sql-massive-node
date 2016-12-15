@@ -30,7 +30,11 @@ We are going to be working with a single table, products.  It's schema will look
   * read_product
   * update_product
   * delete_product
-  
+  INSERT INTO products (Name, Description, Price, Imageurl) VALUES ('A', 'product1', 6.23,'www.abc.com');
+INSERT INTO products (Name, Description, Price, Imageurl) VALUES ('B', 'product2', 49,'www.def.com');
+INSERT INTO products (Name, Description, Price, Imageurl) VALUES ('C', 'product3', 23,'www.ghi.com');
+INSERT INTO products (Name, Description, Price, Imageurl) VALUES ('D', 'product4', 99,'www.jkl.com');
+INSERT INTO products (Name, Description, Price, Imageurl) VALUES ('E', 'product5', 9999.99,'www.mnop.com');
 * Create a working SQL query for each one.  You can use pgAdmin to test your queries against the database.
 
 __create_product__
@@ -65,7 +69,7 @@ This query will take in an id.  Find and delete the product with the id.
     * Inside of GetOne, use the read_product query
     * Inside of Update, use the update_product query
     * Inside of Delete, use the delete_product query
-    
+
 
 ## Create endpoints
 
